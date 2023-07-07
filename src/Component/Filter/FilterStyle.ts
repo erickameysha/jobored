@@ -1,7 +1,9 @@
 import {createStyles} from "@mantine/core";
 
-export const FilterStyle = createStyles((theme) => ({
+export const FilterStyle = createStyles(() => ({
     card: {
+        width:'315px',
+        height: '359px',
         border: `1px solid #EAEBED`,
         background: `#FFFFFF`,
         borderRadius: `12px`,
